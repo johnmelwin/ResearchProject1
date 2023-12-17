@@ -1,7 +1,7 @@
 
 # Project Data Overview 📊
 
-This folder contains datasets crucial for training and validating models in our software engineering project. The datasets are organized into specific categories for different phases of model training and verification.
+This folder contains datasets crucial for training and validating models in our research project. The datasets are organized into specific categories for different phases of model training and verification.
 
 ## Data Organization 🗂️
 
