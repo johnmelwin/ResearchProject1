@@ -4,12 +4,12 @@
 
 from transformers import RobertaTokenizer, T5ForConditionalGeneration
 
-tokenizer = RobertaTokenizer.from_pretrained('Salesforce/codet5-base')
-model = T5ForConditionalGeneration.from_pretrained('Salesforce/codet5-base')
+tokenizer = RobertaTokenizer.from_pretrained('Salesforce/codet5-large')
+model = T5ForConditionalGeneration.from_pretrained('Salesforce/codet5-large')
 
 
-text = "def minus(a, b): " \
-       "return (<extra_id_0>);"
+text = "def add(a, b): " \
+       "return (<extra_id_0>"
 input_ids = tokenizer(text, return_tensors="pt").input_ids
 
 # simply generate a single sequence
