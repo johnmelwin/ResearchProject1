@@ -13,9 +13,7 @@ This document outlines the challenges encountered during the Instruction-Tuning 
 ## Current Actions and Future Plans 🔜
 - Professor Zhe Yu and I (John Melwin Richard) have requested access to RIT-Sporc, a more powerful computing resource.
 - Once access is granted, we plan to resume the training process on RIT-Sporc, anticipating that its superior computational capabilities will overcome the current limitations.
-
 ![Alt text](Extra/Request_SPORC.png)
-
 
 ---
 
