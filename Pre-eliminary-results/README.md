@@ -1,7 +1,7 @@
 # Instruction Tuning Update for CodeT5 
 
 ## Overview
-This document outlines the challenges encountered during the Instruction-Tuning process of CodeT5, primarily due to computational limitations.
+This document outlines the challenges encountered during the Instruction-Tuning process of CodeT5, primarily due to computational limitations. The testing-phase of CodeT5 has give good results and one of the results is available in Testing_CodeT5_Results folder here.
 
 ## Issue Description 📝
 - The Instruction-Tuning of CodeT5 failed because of insufficient computation resources during the sharding process. The primary constraint was limited memory availability.
