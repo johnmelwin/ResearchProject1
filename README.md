@@ -11,24 +11,38 @@
   - 🏫 Rochester Institute of Technology
   - 📧 Email: zxyvse@rit.edu
 
-## Goals of the Paper 🎯
-This research introduces a novel approach using transformer-based models to enhance traceability in software development. It aims to compare this method with existing techniques and explore the transition from traditional to transformer-based traceability in software engineering.
+## Abstract 📝
+This research introduces a novel approach to enhance traceability in the software development lifecycle using advanced NLP techniques, specifically leveraging large language models (LLMs) 🤖. Our study assesses the effectiveness of this innovative method compared to existing techniques and explores the transition from traditional to transformer-based traceability.
 
-## Scientific Merit 🔬
-The study explores using transformer-based models for automated identification of links within code artifacts. It seeks to address several key questions, such as the feasibility of enhancing traceability using these models, comparing them with existing techniques, and understanding the transition to transformer-based traceability. The implementation of transformer-based models in software traceability can significantly benefit sponsoring organizations, developers, and the academic community. It can lead ...
+## Introduction 📘
+Software traceability involves establishing and managing links between code entities throughout the development lifecycle. This research utilizes large language models (LLMs) to automate the identification of trace links, aiming to improve the efficiency and accuracy of the software development process.
 
-## Goals and Tasks 📌
-- 🔍 Comprehensive literature review to identify gaps in software traceability methods.
-- 💻 Implementation of various language models, focusing on CodeT5.
-- 🧠 In-depth exploration of the training process and model architecture.
-- 📊 Collection and preparation of diverse datasets for software traceability.
-- 🛠️ Model fitting, fine-tuning, testing, and performance analysis.
+## Key Questions 🤔
+1. Can we enhance traceability using LLMs?
+2. How does this approach compare with existing techniques?
+3. How can developers transition to LLM-based traceability effectively?
 
-## Approach 🛤️
-The study uses pre-trained Large Language Models (LLMs) for identifying trace links in software. It includes dataset preparation, model selection, fine-tuning, and evaluation using metrics like precision, recall, and F1 score. The model architecture involves systematic data organization, using the Hugging Face's Transformers library, and a sequential training approach. It includes data preprocessing, fine-tuning, and evaluation stages.
+## Dataset 📊
+We utilized a traceability dataset specifically for the Gantt system, focusing on methods, variables, interfaces, and classes linked to software requirements.
 
-## Privacy and Ethical Statement 🛡️
-The research ensures ethical considerations and privacy concerns, using non-proprietary and publicly accessible data, and adhering to responsible technology use principles.
+## Approach 🔍
+Our methodology includes:
+- **Data Preprocessing**: Cleaning, partitioning, and sampling the dataset.
+- **Training**: Utilizing models like CodeBERT and GPT-3.5, trained on NVIDIA A100 GPUs.
+- **Model Monitoring and Adjustment**: Real-time adjustments based on performance metrics.
+- **Testing and Evaluation**: Testing models using distinct datasets to ensure unbiased evaluations.
 
-## Dataset 📂
-Access the dataset used for this research [here](https://github.com/johnmelwin/ResearchProject1/tree/main/Data).
+## Results and Discussion 📈
+The evaluation shows that GPT-3.5 models, especially when fine-tuned, outperform traditional models like CodeBERT in all metrics, demonstrating the potential of LLMs in enhancing traceability.
+
+## Conclusion 🎯
+LLMs significantly improve the process of establishing trace links between software documentation and code, surpassing traditional methods. Future research should explore the broader applications of LLMs in software engineering, ensuring ethical and privacy considerations are managed.
+
+
+## Citing This Work 📄
+If you find this research useful, please consider citing it in your work. The citation details are provided in the repository.
+
+---
+
+Feel free to star ⭐ and fork 🍴 this repository if you find it useful in your research or software development projects!
+
