@@ -35,7 +35,7 @@ Our methodology includes:
 ## Results and Discussion 📈
 The evaluation shows that GPT-3.5 models, especially when fine-tuned, outperform traditional models like CodeBERT in all metrics, demonstrating the potential of LLMs in enhancing traceability.
 
-![alt text](url)
+![alt text]([url](https://github.com/johnmelwin/ResearchProject1/blob/main/Results/ROC.png))
 
 
 ## Conclusion 🎯
