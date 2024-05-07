@@ -38,11 +38,5 @@ The evaluation shows that GPT-3.5 models, especially when fine-tuned, outperform
 ## Conclusion 🎯
 LLMs significantly improve the process of establishing trace links between software documentation and code, surpassing traditional methods. Future research should explore the broader applications of LLMs in software engineering, ensuring ethical and privacy considerations are managed.
 
-
-## Citing This Work 📄
-If you find this research useful, please consider citing it in your work. The citation details are provided in the repository.
-
----
-
 Feel free to star ⭐ and fork 🍴 this repository if you find it useful in your research or software development projects!
 
