@@ -35,6 +35,9 @@ Our methodology includes:
 ## Results and Discussion 📈
 The evaluation shows that GPT-3.5 models, especially when fine-tuned, outperform traditional models like CodeBERT in all metrics, demonstrating the potential of LLMs in enhancing traceability.
 
+![alt text](url)
+
+
 ## Conclusion 🎯
 LLMs significantly improve the process of establishing trace links between software documentation and code, surpassing traditional methods. Future research should explore the broader applications of LLMs in software engineering, ensuring ethical and privacy considerations are managed.
 
